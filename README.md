@@ -54,7 +54,7 @@ These fonts were fonts that come with HZeller’s project, but were too small fo
 * FixedMedium-15.bdf 
 * FixedMedium-30.bdf
 #### &rarr; /home/user/display32x64/rpi-rgb-led-matrix/fonts/
-#### Scripts:
+### Scripts:
 These scripts are the meat of this project, using Python 2 and Bash scripts to run the Social Media Counter. They pull the count numbers, run the animations, and organize the display of social media site information and transitions. The scripts themselves have comments to help you personalize your social media counter. 
 * arproject.sh
 * fb_counter.sh 

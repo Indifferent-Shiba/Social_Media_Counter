@@ -76,6 +76,7 @@ While searching for GIFs, keep in mind that the more complex a GIF is, the more 
 Opening Gimp and using **File &rarr; Open**, bring up the GIF. Upon bringing the GIF into Gimp, you will see on the right-hand side that your GIF has been broken up into layers for you. 
 ### Step 3: Crop, Resize, and Touch Up
 Crop your gif to the desired content using the rectangle selection tool in the left-hand corner of your screen, the first option in your list of icon tools. Next, go to **Image &rarr; Scale Image** and scale the image in pixels to your panel, in this case, scaling it to 32 pixels tall by 128 pixels long since in my example project I am using two panels. Quality at this point may vary, so pixels can be manually edited/ smoothed out to look nicer or you can try to crop the original GIF to a different size/focus and scale again to see if that helps.
+![GimpEx](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/gimp_export_example.PNG)
 ### Step 4: Export as ppm Files
 This step is tedious. On the right-hand side with all of your frames, hide all of the frames by clicking the eye button until you reach frame 1. Export this frame by going up to **File &rarr; Export as…** and select the option to **show all file types**. Scroll down to **ppm** and save the file as “name1.ppm”. Click the following frame to be shown, the eye button reappearing, and do the same process for it, exporting it as “name2.ppm.” Continue this process until all frames are exported. I suggest exporting these frames into a folder to make it easier to hold all of them together.  
 ## Making Animations Based on Images
@@ -86,6 +87,7 @@ Opening Gimp and using **File &rarr; Open**, bring up the image. Crop your image
 ### Step 3: Export as ppm File
 Export the image by going up to **File &rarr; Export as…** and select the option to **show all file types**. Scroll down to **ppm** and save the file as whatever name you desire. 
 # Printing and Building the Case
+![CaseTogether](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/case_with_panels.jpg)
 
 
 

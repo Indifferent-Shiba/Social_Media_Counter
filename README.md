@@ -71,4 +71,21 @@ These scripts are the meat of this project, using Python 2 and Bash scripts to r
 I have made many animations, but due to copyright rules, I am only able to post this original animation. However, all sorts of animations are possible, from Mario walking across the screen to the enterprise soaring by. I have found two ways to make animations, both that utilize [Gimp](https://www.gimp.org/). The first method takes a GIF and breaks the GIF into frames, which are then exported individually as ppm files. The other method takes an image and resizes it to fit the panels, the image exported as a ppm and animated by sliding it across the panels. 
 ### Making Animations based on GIFS
 #### Step 1: Find a GIF you like
+While searching for GIFs, keep in mind that the more complex a GIF is, the more likely that the animation will lose much of the GIFs details when resized to fit the panels and will have many more frames to export individually. I suggest keeping your GIF choices simple since it will require less work and less frame by frame editing in terms of fixing mixed up pixels. GIFs I worked with include Tron, Legend of Zelda, Super Mario Brothers, Raspberry Pi imagery, Mega Man, Disney logos, Shovel Knight, Cowboy Bebop, and some others, simplicity not necessarily taking away the variety of things you can do!
+#### Step 2: Pull the GIF into Gimp
+Opening Gimp and using **File &rarr; Open**, bring up the GIF. Upon bringing the GIF into Gimp, you will see on the right-hand side that your GIF has been broken up into layers for you. 
+#### Step 3: Crop, Resize, and Touch Up
+Crop your gif to the desired content using the rectangle selection tool in the left-hand corner of your screen, the first option in your list of icon tools. Next, go to **Image &rarr; Scale Image** and scale the image in pixels to your panel, in this case, scaling it to 32 pixels tall by 128 pixels long since in my example project I am using two panels. Quality at this point may vary, so pixels can be manually edited/ smoothed out to look nicer or you can try to crop the original GIF to a different size/focus and scale again to see if that helps.
+#### Step 4: Export as ppm Files
+This step is tedious. On the right-hand side with all of your frames, hide all of the frames by clicking the eye button until you reach frame 1. Export this frame by going up to **File &rarr; Export as…** and select the option to **show all file types**. Scroll down to **ppm** and save the file as “name1.ppm”. Click the following frame to be shown, the eye button reappearing, and do the same process for it, exporting it as “name2.ppm.” Continue this process until all frames are exported. I suggest exporting these frames into a folder to make it easier to hold all of them together.  
+### Making Animations Based on Images
+#### Step 1: Find an Image
+Just as before with Animations, keep in mind that image quality will change when the image is resized to fit the panels. I have used both Star Trek and Star Wars ships as scrolling image on my Social Media Counter.
+#### Step 2: Pull Image into Gimp and Resize
+Opening Gimp and using **File &rarr; Open**, bring up the image. Crop your image to the desired content using the rectangle selection tool in the left-hand corner of your screen, the first option in your list of icon tools. Next, go to **Image &rarr; Scale Image** and scale the image in pixels to the height of your panel. Play with the width until the image look appropriate. 
+#### Step 3: Export as ppm File
+Export the image by going up to **File &rarr; Export** as… and select the option to **show all file types**. Scroll down to **ppm** and save the file as whatever name you desire. 
+## Printing and Building the Case
+
+
 

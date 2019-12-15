@@ -19,16 +19,17 @@ I used:
 The diagram above illustrates the wiring needed to run two RGB LED panels with the Pi. If you plan to use more panels, more Ground and Voltage wiring may be needed. I would head to [Henner Zeller’s Wiring Layout](https://github.com/hzeller/rpi-rgb-led-matrix/blob/master/wiring.md) for more details on all of the pinouts. The Wires go from the pi to the ribbon cable, the other side of the ribbon cable attached to the first panel. The second ribbon cable chains the two RGB LED panels together, the back of the panels noted with arrows in terms of what direction the panels should flow in.  
 ## Setting Up the Pi
 To start, I installed the command line only version of Debian onto my Micro SD Card. Once the car is in the Pi and the basics are set up, install [Henner Zeller’s original project](https://github.com/hzeller/rpi-rgb-led-matrix).
-'''
+```
 $ mkdir display64x32
 $ cd display64x32
 $ git clone https://github.com/hzeller/rpi-rgb-led-matrix/
-'''
+```
 Next, we need to move the logs, scripts, icons, fonts, and animations to their proper locations:
 ### Social Media Logs:
 These logs are currently used as the sources for our social media counts. Later, they will be replaced with a script to pull social media counts directly from the desired social media sites. 
-* fb.txt			text file to manually type in number of Facebook likes
-* inst.txt			text file to manually type in number of Instagram followers
-* twi.txt			text file to manually type in number of Twitter followers
-* yt.txt 			text file to manually type in number of YouTube Subscribers
+* fb.txt			
+* inst.txt			
+* twi.txt			
+* yt.txt 
+
 &rarr; /home/user/display32x64/rpi-rgb-led-matrix

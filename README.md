@@ -26,10 +26,44 @@ $ git clone https://github.com/hzeller/rpi-rgb-led-matrix/
 ```
 Next, we need to move the logs, scripts, icons, fonts, and animations to their proper locations:
 ### Social Media Logs:
-These logs are currently used as the sources for our social media counts. Later, they will be replaced with a script to pull social media counts directly from the desired social media sites. 
+These logs are currently used as the sources for our social media counts (In this case, Facebook, Instagram, Twitter, and Youtube.) Later, they will be replaced with a script to pull social media counts directly from the desired social media sites. 
 * fb.txt			
 * inst.txt			
 * twi.txt			
 * yt.txt 
 
-&rarr; /home/user/display32x64/rpi-rgb-led-matrix
+##### &rarr; /home/user/
+### Shuffle Log:
+This log is used to keep track of shuffled transitions, the transitions printed into this file and kept tracked up via line count, the line count of the log determining when the next shuffle should occur.This file may have to be cleared and/or primed when changes occur.  
+* Shuffle_log.txt
+#### &rarr; /home/user/display32x64/rpi-rgb-led-matrix
+### Social Media Icons:
+These are the logos for a few social media sites. These icons are displayed next to their correlated counts. The icons were taken from the internet and pulled into [Gimp](https://www.gimp.org/) (discussed later under “Making Animations”), resized, and exported into ppm files. Their curved look was manually created in gimp by erasing/ adding pixels. 
+* FB.ppm
+* Instagram.ppm
+* Twitter.ppm
+* Twitter_blue.ppm
+* yt.ppm
+#### &rarr; /home/user/display32x64/rpi-rgb-led-matrix/graphics/ (may have to make graphics folder in rpi-rgb-led-matrix folder)
+### Animations:
+Animations are collections of ppm images that are played in a numbered sequence to produce an animation. Each collection of ppm files needs to be in its own folder, the files need to share a similar name and start with the number 1, such as “ectb1.ppm” and continue to increase until over, such as “ectb74.ppm”. 
+* ectb (Folder)
+#### &rarr; in /home/user/display32x64/rpi-rgb-led-matrix/graphics/Animations (may have to make Animations folder in graphics folder)
+###Fonts:
+These fonts were fonts that come with HZeller’s project, but were too small for my particular panels. I took one of the fonts from the project and pulled it into [FontForge](https://fontforge.org/en-US/) and resized them to better suit the panels and my use of them. 
+* FixedMedium-15.bdf 
+* FixedMedium-30.bdf
+#### &rarr; /home/user/display32x64/rpi-rgb-led-matrix/fonts/
+#### Scripts:
+These scripts are the meat of this project, using Python 2 and Bash scripts to run the Social Media Counter. They pull the count numbers, run the animations, and organize the display of social media site information and transitions. The scripts themselves have comments to help you personalize your social media counter. 
+* arproject.sh
+* fb_counter.sh 
+* insta_counter.sh
+* twi_counter.sh
+* yt_counter.sh
+#### &rarr; /home/user/display32x64/rpi-rgb-led-matrix/
+* zz-animation.py
+* zz-doubletext.py
+* zz-image-n-text.py
+
+

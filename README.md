@@ -89,8 +89,27 @@ Export the image by going up to **File &rarr; Export as…** and select the opti
 # Printing and Building the Case
 ![CaseTogether](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/case_with_panels.jpg)
 All of the case stls are provided in the stl folder. Each has been designed to be wall hung if desired and was also built in a modular manner, the number of panels used in your project ideally flexible in the sense that only more case pieces will need printed out to fit your panel needs. 
-##The Pieces
+## The Pieces
 ![CaseLeft](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/case_left_corner.PNG) ![CaseRight](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/case_right_corner.PNG)
+These two panels are used at the ends of your project. The elevated stands with the holes are for the magnets to be placed in since Adafruit’s panels come with magnetic screws to hang the panel with. The extra room in the piece itself is for wires to not crushed. 
+![CaseMiddle](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/case_middle.PNG)
+This piece will be used to connect the majority of your project together, connected the corner pieces to the other unique pieces of the case. Most of the pieces you print will be this piece.
+![CaseRaspi](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/case_raspi.PNG)
+This piece is for your Raspberry Pi 2. You can screw the Pi into the platform, the wires having plenty of room to move around. Keep in mind that the placement of the Pi piece will be determined by the wiring of the Pi and the panels as well as which direction your social media counter display is when sitting **upright** along with the wall mount keyholes. 
+![CaseMiddleRight](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/case_middle_left.PNG)
+![CaseMiddleLeft](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/case_middle_right.PNG)
+The pieces are used to shift from one panel to the next, their platforms aligned to match up with both magnet screws of each panel. While this works well for wall mount projects, a portable social media counter may feel flimsy with these two pieces, the case caving slight backwards if you aren’t careful. I hybrid piece combining the two into one piece is in the works in order to provide more stability for moving projects. 
+## Putting them Together
+For my project, I needed to print the following:
+* 1 Left Corner Piece
+* 1 Right Corner Piece
+* 1 RasPi Piece
+* 1 Middle Left Piece
+* 1 Middle Right Piece
+* 5 Middle Pieces
+To put them together, I put the 6 mm magnets into the proper slots. NOTE to check that the polarity is correct for magnetic screw from the panel with it’s corresponding location. The polarity of Adafruit’s magnet screws are not consistent, and thus need to be double checked. It is also just easy to place magnet upside down in the slot, the magnet hard to get out after. If you want to make sure the magnets stay, you can use a heat gun to sink the magnets into the plastic further. 
 
+Using the screws, connect all the pieces together. Each tongue has a hole created for it already to give the screw a start, though unscrewing and screwing the pieces over and over make not work well, requiring you to eventually get a bigger screw size. The same goes for the pi attachment. 
 
-
+After screwing everything in, decide where you want to place your DC-DC Converter. You will have to drill small holes for it, and then screw it into place. 
+![CasePower](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/power_to_case.jpg)

@@ -67,8 +67,8 @@ These scripts are the meat of this project, using Python 2 and Bash scripts to r
 * zz-image-n-text.py
 #### &rarr; /home/user/display32x64/rpi-rgb-led-matrix/bindings/python/samples 
 ## Making Animations 
-![Gimp](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/gimp_homepage.png)
+![Gimp](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/gimp_homepage.PNG)
 I have made many animations, but due to copyright rules, I am only able to post this original animation. However, all sorts of animations are possible, from Mario walking across the screen to the enterprise soaring by. I have found two ways to make animations, both that utilize [Gimp](https://www.gimp.org/). The first method takes a GIF and breaks the GIF into frames, which are then exported individually as ppm files. The other method takes an image and resizes it to fit the panels, the image exported as a ppm and animated by sliding it across the panels. 
 ### Making Animations based on GIFS
-####Step 1: Find a GIF you like
+#### Step 1: Find a GIF you like
 

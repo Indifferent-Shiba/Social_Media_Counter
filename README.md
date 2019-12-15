@@ -88,6 +88,9 @@ Opening Gimp and using **File &rarr; Open**, bring up the image. Crop your image
 Export the image by going up to **File &rarr; Export as…** and select the option to **show all file types**. Scroll down to **ppm** and save the file as whatever name you desire. 
 # Printing and Building the Case
 ![CaseTogether](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/case_with_panels.jpg)
+All of the case stls are provided in the stl folder. Each has been designed to be wall hung if desired and was also built in a modular manner, the number of panels used in your project ideally flexible in the sense that only more case pieces will need printed out to fit your panel needs. 
+##The Pieces
+![CaseLeft](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/case_left_corner.PNG) ![CaseRight](https://github.com/Indifferent-Shiba/Social_Media_Counter/blob/master/Images/case_right_corner.PNG)
 
 
 
